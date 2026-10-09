@@ -100,13 +100,9 @@ End-to-end web app that turns model output into user-facing recommendations: use
 | **Outcome** | Top 50 pediatric shortlist and an interactive map dashboard |
 | **Link** | [Bright-Smiles](Bright-Smiles) |
 
-![Bright Smiles acquisition shortlist](materials/images/bright-smiles-hero.png)
+https://github.com/user-attachments/assets/8ecc37b2-d0fe-4f4f-8658-6fa6cf5315fb
 
-*Ranked shortlist of pediatric offices and where those candidates sit on the map.*
-
-![Bright Smiles Arizona market overview](materials/images/bright-smiles-market.png)
-
-*Market overview: 3,000 offices, 480 pediatric, and the four largest brands set aside.*
+*Dashboard walkthrough: market overview, then the top 50 shortlist on the map.*
 
 Screened 3,000 Arizona dental offices for a kids' dentistry chain looking at acquisition targets. Kept pediatric offices outside the four largest brands, checked city enrollment against Census population, and scored 157 offices on child enrollment, kids per pediatric office, review-adjusted rating, and dentist count. The Power BI report joins that table to a map. Top office: Sunset Family Dental in Phoenix. The top 50 is a shortlist for a closer look, not a purchase price.
 
