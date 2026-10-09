@@ -9,11 +9,12 @@ Welcome to my Data & Marketing Analysis Portfolio.
 | # | Project | Business Focus | Tools / Skills | Outcome |
 | --- | --- | --- | --- | --- |
 | 1 | **[PortfolioAI](https://github.com/StevenShi998/PortfolioAI)** | ML-driven stock allocation and plain-English recommendations for end users. | Python, Variational LSTM, PostgreSQL, full-stack dashboard | Backtested allocations, recommendation history, user preference–driven outputs. |
-| 2 | **[Custom CPI & Grocery Budget](https://github.com/StevenShi998/Custom-CPI-Study)** | Why CPI increased over the last 5 years; what the drivers were and why. | SQL (CTEs, window functions), Python (pandas, NumPy), Power BI | 60-month trend, increase/decrease breakdown, beef category focus; dashboard-ready. |
-| 3 | **[StageTEN](https://github.com/StevenShi998/StageTEN)** | Marketing reports and automation for HubSpot/Shopify (deal naming, app downloader, KPIs). | Python, pandas, Google Analytics, HubSpot CRM | Consistent deal naming, lifecycle segmentation, channel performance reports. |
-| 4 | **[UW Course Explorer](https://github.com/StevenShi998/UW-Course-SearchTree)** | Prerequisite and future-course trees with search and ratings-weighted path recommendations. | JavaScript, SQL, graph traversal, DAG logic | Interactive tree view, optimal path selection, UW Flow–based preferences. |
-| 5 | **[Alchemy E-commerce](https://github.com/StevenShi998/Alchemy-E-commerce)** | My own e-commerce store with product photography, email campaigns, and marketing content. | Adobe Photoshop, Adobe Lightroom, Shopify, email marketing | Live store, marketing campaigns, $30k+ real revenue. |
-| 6 | **[FFT for Retail Cycle Detection](https://github.com/StevenShi998/Fast-Fourier-Transform)** | Dominant cycles in U.S. retail sales; smoothed series for campaign and planning use. | Python, NumPy FFT, pandas, Matplotlib, low-pass filtering | Annual cycle identification, raw vs smoothed comparison, business interpretation. |
+| 2 | **[Bright Smiles](Bright-Smiles)** | Which Arizona pediatric dental offices are worth a closer look for acquisition. | Python (pandas), Power BI | Top 50 shortlist, map dashboard, enrollment and rating score. |
+| 3 | **[Custom CPI & Grocery Budget](https://github.com/StevenShi998/Custom-CPI-Study)** | Why CPI increased over the last 5 years; what the drivers were and why. | SQL (CTEs, window functions), Python (pandas, NumPy), Power BI | 60-month trend, increase/decrease breakdown, beef category focus; dashboard-ready. |
+| 4 | **[StageTEN](https://github.com/StevenShi998/StageTEN)** | Marketing reports and automation for HubSpot/Shopify (deal naming, app downloader, KPIs). | Python, pandas, Google Analytics, HubSpot CRM | Consistent deal naming, lifecycle segmentation, channel performance reports. |
+| 5 | **[UW Course Explorer](https://github.com/StevenShi998/UW-Course-SearchTree)** | Prerequisite and future-course trees with search and ratings-weighted path recommendations. | JavaScript, SQL, graph traversal, DAG logic | Interactive tree view, optimal path selection, UW Flow–based preferences. |
+| 6 | **[Alchemy E-commerce](https://github.com/StevenShi998/Alchemy-E-commerce)** | My own e-commerce store with product photography, email campaigns, and marketing content. | Adobe Photoshop, Adobe Lightroom, Shopify, email marketing | Live store, marketing campaigns, $30k+ real revenue. |
+| 7 | **[FFT for Retail Cycle Detection](https://github.com/StevenShi998/Fast-Fourier-Transform)** | Dominant cycles in U.S. retail sales; smoothed series for campaign and planning use. | Python, NumPy FFT, pandas, Matplotlib, low-pass filtering | Annual cycle identification, raw vs smoothed comparison, business interpretation. |
 
 ---
 
@@ -91,7 +92,27 @@ End-to-end web app that turns model output into user-facing recommendations: use
 
 ---
 
-### 2. Custom CPI & Grocery Budget Analysis
+### 2. Bright Smiles Arizona Acquisition Screen
+
+| | |
+| --- | --- |
+| **Skills** | Python (pandas), Power BI |
+| **Outcome** | Top 50 pediatric shortlist and an interactive map dashboard |
+| **Link** | [Bright-Smiles](Bright-Smiles) |
+
+![Bright Smiles acquisition shortlist](materials/images/bright-smiles-hero.png)
+
+*Ranked shortlist of pediatric offices and where those candidates sit on the map.*
+
+![Bright Smiles Arizona market overview](materials/images/bright-smiles-market.png)
+
+*Market overview: 3,000 offices, 480 pediatric, and the four largest brands set aside.*
+
+Screened 3,000 Arizona dental offices for a kids' dentistry chain looking at acquisition targets. Kept pediatric offices outside the four largest brands, checked city enrollment against Census population, and scored 157 offices on child enrollment, kids per pediatric office, review-adjusted rating, and dentist count. The Power BI report joins that table to a map. Top office: Sunset Family Dental in Phoenix. The top 50 is a shortlist for a closer look, not a purchase price.
+
+---
+
+### 3. Custom CPI & Grocery Budget Analysis
 
 | | |
 | --- | --- |
@@ -111,7 +132,7 @@ Uses Statistics Canada retail price data (2019–2024) to answer what led to the
 
 ---
 
-### 3. StageTEN Marketing Analytics Showcase
+### 4. StageTEN Marketing Analytics Showcase
 
 | | |
 | --- | --- |
@@ -131,7 +152,7 @@ Built marketing reporting (e.g., Empower By U vs. Shopify app downloader, TGT wr
 
 ---
 
-### 4. UW Course Explorer
+### 5. UW Course Explorer
 
 | | |
 | --- | --- |
@@ -147,7 +168,7 @@ Built an interactive prerequisite path planner for UW students. Uses graph trave
 
 ---
 
-### 5. Alchemy E-commerce Shop
+### 6. Alchemy E-commerce Shop
 
 | | |
 | --- | --- |
@@ -167,7 +188,7 @@ My own e-commerce store (alchemy1916.com). Built product photography, edited ass
 
 ---
 
-### 6. FFT for Retail Cycle Detection
+### 7. FFT for Retail Cycle Detection
 
 | | |
 | --- | --- |
